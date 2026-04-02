@@ -32,6 +32,7 @@ export const Footer = () => {
               <a href="#portfolio" className="hover:text-white transition-colors">Portfolio</a>
               <a href="#heritage" className="hover:text-white transition-colors">Expertise</a>
               <a href="#contact" className="hover:text-white transition-colors">Kontakt</a>
+              <a href="/strategie" className="text-accent/60 hover:text-accent font-bold transition-all mt-4 border-t border-white/5 pt-4 block">Strategie-Präsentation</a>
             </nav>
           </div>
 

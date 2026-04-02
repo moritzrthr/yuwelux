@@ -1,15 +1,12 @@
 import { useEffect } from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
 import Lenis from 'lenis';
-import { Navbar } from './components/layout/Navbar';
-import { Hero } from './components/sections/Hero';
-import { ProblemAwareness } from './components/sections/ProblemAwareness';
-import { Ecosystem } from './components/sections/Ecosystem';
-import { Heritage } from './components/sections/Heritage';
-import { Showroom } from './components/sections/Showroom';
-import { CTASection } from './components/sections/CTASection';
-import { Footer } from './components/layout/Footer';
+import { HomePage } from './pages/HomePage';
+import { StrategyPage } from './pages/StrategyPage';
 
 function App() {
+  const location = useLocation();
+
   useEffect(() => {
     // Initialize Lenis Smooth Scroll
     const lenis = new Lenis({
@@ -25,21 +22,29 @@ function App() {
 
     requestAnimationFrame(raf);
 
+    // Scroll to hash element if exists
+    if (location.hash) {
+      setTimeout(() => {
+        const el = document.querySelector(location.hash);
+        if (el) {
+          lenis.scrollTo(el as HTMLElement, { offset: -80 });
+        }
+      }, 300);
+    } else {
+      lenis.scrollTo(0, { immediate: true });
+    }
+
     return () => {
       lenis.destroy();
     };
-  }, []);
+  }, [location.pathname]);
 
   return (
-    <main className="relative selection:bg-accent selection:text-background">
-      <Navbar />
-      <Hero />
-      <ProblemAwareness />
-      <Ecosystem />
-      <Heritage />
-      <Showroom />
-      <CTASection />
-      <Footer />
+    <main className="relative selection:bg-accent selection:text-background min-h-screen">
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/strategie" element={<StrategyPage />} />
+      </Routes>
     </main>
   );
 }
