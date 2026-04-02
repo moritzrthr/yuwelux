@@ -1,0 +1,358 @@
+
+Du bist ein Senior Web Developer und UI Engineer mit Spezialisierung auf 
+hochwertige, maßgeschneiderte Unternehmenswebsites im Premium-Segment.
+
+DU musst den tasteskill nutzen wenn du ihn noch nicht hast muessen wir ihn holen:
+https://github.com/Leonxlnx/taste-skill.git
+
+DU MUSST EIN NEUES GIT REPO INITIALISIEREN:
+git init
+if (-not (Test-Path .gitignore)) { "node_modules`n.DS_Store`ndist`n.env" | Out-File -Encoding utf8 .gitignore } ; git add . ; git commit -m 
+
+DU MUSST SCHOEN MODULAREN CODE GUT WARTBAR BAUEN!!
+
+---
+
+## DEINE AUFGABE
+
+Du erhältst einen vollständigen Website-Masterplan (STRAT-Output).
+ZUDEM ERHAEKTS DU CRAWK DATEN DER ALTEN WEBSIT EWELCHE DIE LEGACY TEXTE UND BILDER SIND DIE WIR TEILWEISE VERWENDEN WOLLEN
+
+Deine Aufgabe: Baue die Website Sektion für Sektion, exakt nach Masterplan.
+- Bilder: Nutze URLs aus den Crawl-Daten. 
+  Fehlt ein Bild, setze einen Platzhalter mit Kommentar: <!-- NEUES ASSET BENÖTIGT: [Beschreibung] -->
+- Mobile-first: Jede Section ist von Anfang an responsive
+
+HIER KOMMEN DIE INPUTS:
+
+
+--- CRAWL DATA ---
+
+# Audit: http://www.yuwelux.com/
+Title: Yuwelux |
+Description: No Description
+
+---
+
+## Über uns
+### Über uns
+Willkommen bei der YUWELUX GmbH!
+Wir freuen uns, dass Sie den Weg zu uns gefunden haben.
+
+Suchen Sie exklusive, einzigartige oder seltene Oldtimerfahrzeuge, Rennwagen, Fahrzeuge aller Art oder Boote? Möchten Sie Ihr exklusives, einzigartiges und seltenes Fahrzeug oder einfach nur Ihr Alltagsauto verkaufen? Oder sind Sie Kollektionär von mehreren Fahrzeugen und suchen jemand, der Sie professionell betreut und berät? Dann sind Sie bei uns genau richtig!
+
+Die YUWELUX GmbH ist ein junges Unternehmen, das aus Leidenschaft für den Motorsport und die Automobilindustrie entstanden ist. Wir haben unser Hobby zum Beruf gemacht!
+
+Mit 13 Jahren Motorsporterfahrung und 25 Jahren Berufserfahrung im Vertrieb und Verkauf namhafter deutscher, englischer und italienischer Premiumhersteller sowie im Auktionsbereich für Fahrzeuge bei Europas größtem Fahrzeugversteigerer, mit bis zu 1.200 versteigerten Fahrzeugen pro Woche, haben wir unser Wissen und unsere Emotionen für exklusive und seltene Oldtimerfahrzeuge sowie Fahrzeuge aller Art gebündelt und die YUWELUX GmbH gegründet.
+
+Mit unserem weltweiten Netzwerk und unserer Expertise agieren wir als professionelle Berater und Vermittler und gewährleisten dabei die Privatsphäre unserer Kunden beim Kauf und Verkauf ihrer Fahrzeuge. Das ist einer der wichtigsten Gründe, warum unsere Kunden uns vertrauen und ihre Fahrzeuge zu uns in die Vermarktung geben oder eine spezielle Fahrzeugsuche bei uns platzieren.
+
+Darüber hinaus bieten wir eine sichere Unterstellung in unserer Halle im Landkreis Berg am Starnberger See für Ihr Fahrzeug an – videoüberwacht und wettergeschützt – mit der Möglichkeit, Ihr Fahrzeug direkt über unser Netzwerk oder online zu verkaufen.
+
+Zusätzlich zu unserem Kerngeschäft in der Automobilbranche freuen wir uns bekannt zu geben, dass wir jetzt auch im Bereich Immobilienvermittlung tätig sind. Kommen Sie gerne auch hier auf uns zu, wenn Sie eine Gewerbe- oder Wohnimmobilie zu vermarkten haben oder wenn Sie auf der Suche nach einer Immobilie sind. Wir bieten Ihnen exklusive Off-Market-Vermarktung mit höchster Diskretion und gezielter Käuferabsprache.
+
+Zu guter Letzt und aus Leidenschaft zum Boxsport unseres Sohnes unterstützt die YUWELUX GmbH noch die beiden Boxprofi-Brüder, Alexander Rigas alias „The Great“ und Michael Rigas alias „Junior“. Sollten Sie ebenfalls Interesse haben, zwei sehr begabte und erfolgreiche Boxsportler zu unterstützen, informieren wir Sie gerne über alle Möglichkeiten.
+
+Wenn wir Ihr Interesse geweckt haben und Sie auf der Suche nach exklusiver Unterstützung und professioneller Betreuung oder auch nach einer gesicherten Unterstellung für Ihr Fahrzeug sind, dann senden Sie uns gerne Ihre Anfrage inklusive Ihrer Kontaktdaten über unser Kontaktformular. Wir freuen uns, Sie als neuen Kunden bei der YUWELUX GmbH begrüßen zu dürfen!
+
+Folgen Sie uns auch gerne auf Instagram, um Teil unserer Community zu werden und exklusive Einblicke in unsere Welt zu erhalten. Willkommen bei YUWELUX!
+
+## Oldtimer
+### OLDTIMER UND FAHRZEUGE ALLER ART
+Unser Unternehmen bietet Ihnen einen umfassenden Service rund um den Kauf und Verkauf von Fahrzeugen. Wir sind durch unser weltweites Netzwerk spezialisiert auf die Suche und das Finden sowie den Verkauf von exklusiven Fahrzeugen, sei es ein seltener Oldtimer, ein einzigartiger Youngtimer, ein begehrter Klassiker oder ein besonderes Fahrzeug für den Alltag.
+
+Unser höchstes Gut und größter Anspruch ist das Vertrauen unserer Kunden. Wir gewährleisten die Privatsphäre und den Schutz unserer Kaufs- und Verkaufskunden sowie ihrer zu verkaufenden Fahrzeug-Schätze und- Sammlungen. Dies ist einer der Hauptgründe, warum sich unsere Kunden uns anvertrauen und ihre Fahrzeuge uns zur Suche oder zum Verlauf anvertrauen.
+
+Neben der Fahrzeug- oder Käufersuche umfasst unser Service die komplette Abwicklung des Fahrzeugkaufs oder -verkaufs. Von der Besichtigung der Fahrzeuge über die Verhandlungen der Verträge bis hin zur betreuten Auslieferung des Fahrzeuges – wir kümmern uns um jeden Schritt des Prozesses.
+
+Wir bieten Ihnen umfangreiche Recherchedienste für die Suche nach bestimmten Fahrzeugen an und prüfen sorgfältig die zu suchenden Fahrzeuge und deren Zustand für unsere Kunden. Für Fahrzeuge, die zum Verkauf stehen, generieren wir potenzielle Käufer und übernehmen für Sie die gesamte Abwicklung.
+
+Jede Fahrzeugbesichtigung wird ausführlich mit Fotomaterial und Lackprüfung protokolliert, um maximale Transparenz und Sicherheit für den Kunden zu gewährleisten. Für Käufer- und Verkäuferseite führen wir die Vertragsverhandlungen durch, um sicherzustellen, dass alle Parteien fair, geschützt und zufrieden sind. Bei Bedarf organisieren wir den Transport der Fahrzeuge für Sie und sorgen für eine sichere und betreute Lieferung. Auf Wunsch betreuen wir Sie auch bei Fahrzeugwert-Ermittlungen, bringen wir Ihr Fahrzeug in professionell temperierten Unterkünften im süddeutschen Raum unter, halten wir Ihr Fahrzeug allzeit fahrbereit und lassen Sie gerne Ihr Fahrzeug über uns instand setzen, restaurieren, lackieren oder sogar komplett neu aufbauen. Wir stimmen jegliche Leistung auf Sie und Ihr Fahrzeug ab.
+
+Darüber hinaus bewerten und betreuen wir verschiedene Fahrzeugkollektionen und Sammlungen.
+
+Verlassen Sie sich auf unsere Erfahrung und Expertise, um Ihren Fahrzeugkauf oder -verkauf stressfrei und erfolgreich zu gestalten. Kontaktieren Sie uns gerne, um mehr über unsere Dienstleistungen zu erfahren!
+
+## Exklusive Fahrzeugunterbrinung
+### Exklusive Fahrzeugunterbrinung
+Sichere Unterstellung & Verkaufsservice für Fahrzeuge – kameragesichert & wettergeschützt
+
+Sie möchten Ihr Fahrzeug sicher unterstellen und bei Wunsch auch verkaufen?
+
+Wir bieten Ihnen in unserer modernen, kameragesicherten Halle einen geschützten Platz für Fahrzeuge aller Art (bis max. 2,00 m Höhe) – mit der Möglichkeit, Ihr Fahrzeug direkt über unser Netzwerk oder online zu verkaufen.
+
+Unsere Leistungen im Überblick:
+
+Ideal für:PKW, Motorräder, Youngtimer, Oldtimer, Leasingrückläufer, etc.
+
+Standort: Landkreis Berg am Starnberger See (PLZ 82335)Verfügbarkeit: Sofort
+
+Sichern Sie sich jetzt Ihren Platz – begrenzte Stellflächen!
+
+## Immobilien
+### Immobilien
+Diskrete Exklusivität – Ihre Immobilie in besten Händen
+
+Sie möchten Ihre hochwertige Immobilie verkaufen, ohne sie öffentlich zu inserieren? Unsere exklusive Off-Market-Vermarktung bietet Ihnen höchste Diskretion und gezielte Käuferabsprache.
+
+Wir haben uns dazu entschieden, die Immobilienvermittlung als Teil unseres Angebots mit anzubieten, aus mehreren Gründen:
+
+1. Kundenbedarf: Viele unserer Kunden haben neben ihrem Interesse an Fahrzeugen auch Bedarf an Immobilien bzw. Immobilien zum Vermarkten. Durch die Bereitstellung von Immobilienvermittlungsdiensten können wir ihre Bedürfnisse besser erfüllen und einen umfassenderen Service bieten.
+
+2. Synergieeffekte: Unsere langjährige Erfahrung im Bereich des Vertriebs und Verkaufs ermöglicht es uns, unsere Kompetenzen und Ressourcen auch auf den Immobilienmarkt anzuwenden. Wir können unser vorhandenes Netzwerk und unsere Marktkenntnisse nutzen, um Immobilien effektiv zu vermarkten und zu verkaufen.
+
+3. Diversifizierung: Die Aufnahme von Immobilienvermittlung in unser Portfolio ermöglicht es uns, unser Geschäft zu diversifizieren und zu erweitern. Dies trägt dazu bei, unsere langfristige Stabilität und Wachstumsmöglichkeiten zu stärken.
+
+4. Kundenbindung: Indem wir zusätzliche Dienstleistungen wie Immobilienvermittlung anbieten, können wir die Bindung zu unseren bestehenden Kunden stärken und sie dazu ermutigen, uns auch für andere Bedürfnisse zu konsultieren.
+
+Insgesamt ermöglicht die Integration von Immobilienvermittlung in unser Angebot eine ganzheitliche Betreuung unserer Kunden und unterstützt unser Ziel, Ihren Anforderungen und Wünschen in verschiedenen Bereichen gerecht zu werden.
+
+Dabei ist unser oberstes Gebot die Gewährleistung der Privatsphäre unserer Kunden.
+
+Kontaktieren Sie uns für eine diskrete Beratung – exklusiv, persönlich und erfolgreich. Wir freuen uns darauf, Sie auf Ihrer Reise zu Ihrer neuen Immobilie begleiten zu dürfen.
+
+## Boxmanagement
+### Boxmanagement
+Wir sind stolz darauf, bekannt zu geben, dass wir das Management der Boxprofi-Brüder Alexander und Michael Rigas alias „die Rigas Brüder“ übernommen haben. Obwohl das Sportmanagement in unserer Branche nicht ganz üblich ist, haben wir diese Gelegenheit mit großer Freude ergriffen. Die treibende Kraft war unser Sohn, der seine Liebe zum Boxsport entdeckt hat und aus dieser Leidenschaft heraus möchten wir unseren Beitrag zur Unterstützung von talentierten Athleten leisten. Weitere Gründe sind außerdem:
+
+1. Talent und Potenzial: Wir glauben an das Talent und das Potenzial der beiden Boxprofi Brüder. Ihre Leistungen und Fähigkeiten im Boxsport haben uns beeindruckt, und wir sind überzeugt, dass sie eine vielversprechende Zukunft haben.
+
+2. Partnerschaftsmöglichkeiten: Die Zusammenarbeit mit talentierten Sportlern wie den Rigas Brüdern bietet uns die Möglichkeit, Partnerschaften einzugehen und unsere Marke zu stärken. Ihre Erfolge und Errungenschaften können auch dazu beitragen, unsere Glaubwürdigkeit und Sichtbarkeit in der Öffentlichkeit zu erhöhen.
+
+3. Gegenseitige Unterstützung: Wir sind davon überzeugt, dass eine gegenseitige Unterstützung und Zusammenarbeit für beide Seiten vorteilhaft ist. Wir können den Boxprofi Brüdern dabei helfen, ihre Karrieren voranzutreiben, indem wir sie bei der Vermarktung, Sponsorensuche und Karriereplanung unterstützen.
+
+Als YUWELUX GmbH sind wir bestrebt, Exzellenz in allen Bereichen zu erreichen, sei es in unserem Kerngeschäft oder in neuen aufregenden Herausforderungen wie dem Sportmanagement. Insgesamt betrachten wir die Unterstützung von den Rigas Brüdern als eine Win-Win-Situation, von der beide Seiten profitieren können. Wir freuen uns darauf, sie auf ihrem Weg zum Erfolg zu begleiten und gemeinsam große Erfolge zu feiern.
+
+Bleiben Sie dran für spannende Updates und weitere aufregende Entwicklungen bei YUWELUX GmbH!
+
+@thegreatrigas
+
+## Partner
+## Impressionen
+## kontakt
+### Yuwelux kontaktieren
+Bitte kontaktieren Sie uns über unser Kontaktformular, per Email oder rufen Sie uns einfach persönlich an. Wir beraten Sie gerne und erstellen ein individuelles Angebot für Sie.
+
++49 176 24006464
+
+info@yuwelux.com
+
+Vorname
+
+Nachname
+
+E-Mail-Adresse
+
+Firmenname
+
+Nachricht
+
+Ich interessiere mich für folgendes:
+				
+					
+						Ich interessiere mich für folgendes:
+						
+							
+							Fahrzeuge
+						
+							
+							Boote
+						
+							
+							Immobilien
+						
+							
+							Kunst
+						
+							
+							Boxsport
+
+Datenschutz:
+				
+					
+						Datenschutz:
+						
+							
+							Ich habe die Datenschutzbestimmungen zur Kenntnis genommen.
+
+**[BUTTON: Absenden]**
+
+### 🖼️ Bilder
+- (Alt: Englisch) - https://yuwelux.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.svg
+- (Alt: Deutsch) - https://yuwelux.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/de.svg
+- (Alt: Yuwelux) - https://yuwelux.com/wp-content/uploads/2024/03/Yuwelux_Logo.svg
+- (Alt: Yuwelux) - https://yuwelux.com/wp-content/uploads/2024/03/Yuwelux_Logo.svg
+- (Alt: Kein Alt-Text) - https://yuwelux.com/wp-content/uploads/2024/03/Yuwelux_Logo.svg
+- (Alt: Kein Alt-Text) - https://yuwelux.com/wp-content/uploads/2024/03/Yuwelux_Logo.svg
+- (Alt: Englisch) - https://yuwelux.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.svg
+- (Alt: Deutsch) - https://yuwelux.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/de.svg
+- (Alt: Kein Alt-Text) - https://yuwelux.com/wp-content/uploads/2024/03/Yuwelux_Logo.svg
+- (Alt: Kein Alt-Text) - https://yuwelux.com/wp-content/uploads/2024/03/yuwelux-sacha-rauscher.webp
+- (Alt: Kein Alt-Text) - https://yuwelux.com/wp-content/uploads/2024/03/partner-1.webp
+
+
+--- MARKETING STRATEGY ---
+
+Als Senior Digital Strategist und Creative Director entwickle ich auf Basis deiner Deep Research und der Yuwelux-DNA folgenden Masterplan. Wir transformieren Yuwelux von einem „Sammelsurium an Dienstleistungen“ hin zum digitalen Family Office für exklusive Sachwerte.
+
+MASTERPLAN: YUWELUX — THE CURATOR’S RESIDENCE
+KAPITEL 1 — STRATEGISCHE POSITIONIERUNG
+Das zentrale Versprechen: Yuwelux ist der diskrete Kurator für Sachwerte, der den Starnberger Lifestyle durch Expertise in Off-Market-Immobilien und High-End-Automotive für anspruchsvolle Sammler sichert und verwaltet.
+
+Primäres Conversion-Ziel: Die Qualifizierte Erstberatung (Multi-Step-Formular).
+
+Begründung: HNWIs hassen Zeitverschwendung. Ein Standard-Kontaktfeld wirkt billig. Ein geführter Prozess („Portfolio-Check“) filtert „Gaffer“, wahrt Diskretion und signalisiert dem Kunden: „Wir nehmen dein Anliegen so ernst, dass wir die Details vorab präzise erfassen.“
+
+Tonalität: * Souverän: Ruhig, unaufgeregt, keine Marktschreierei.
+
+Präzise: Faktenorientiert (Heritage, Rennsport-Expertise).
+
+Diskret: Ein Gefühl von „Members Only“ – nicht alles ist für jeden sofort sichtbar.
+
+Der Differenziator: Während Wettbewerber (Sotheby’s etc.) oft unpersönliche Konzerne sind, positionieren wir Yuwelux als „Personal Asset Curator“. Wir verkaufen keine Autos oder Häuser, wir managen den Zugang zu einer Welt, die für andere verschlossen bleibt (Off-Market-Fokus).
+
+KAPITEL 2 — SEITENARCHITEKTUR (ONE-PAGE FOCUSED HUB)
+1. Hero: The Curator’s Entrance
+
+Funktion: Sofortige Status-Etablierung & Selektion.
+
+Inhalt: Verbindung von Starnberger Lifestyle und Sachwert-Expertise.
+
+Crawl-Daten: Sacha Rauschers Name und die 25-jährige Historie als Fundament.
+
+Visuell: Full-Screen High-End-Shot (Cinemagraph) einer kuratierten Sammlung oder Blick über den Starnberger See. Minimalistisches Overlay.
+
+Scroll-Anteil: 15%
+
+2. Problem-Awareness: Die Last der Exzellenz
+
+Funktion: Empathie für den Zeitmangel der HNWIs erzeugen.
+
+Inhalt: „Zeit ist die einzige Währung, die Sie nicht vermehren können.“ Wir adressieren die Intransparenz des Marktes und das Risiko bei Sachwert-Investments.
+
+Visuell: Viel White-Space, starke Typografie, reduziertes Bildmaterial (z.B. Detailaufnahme einer Uhr oder eines Oldtimer-Lenkrads).
+
+Scroll-Anteil: 10%
+
+3. Das Yuwelux-Ökosystem (USPs)
+
+Funktion: Die heterogenen Leistungen (Auto, Immobilien, Boxen) unter ein Dach bringen.
+
+Inhalt: Drei Säulen: Automotive Heritage (Vermittlung & Management), Off-Market Real Estate (Diskretion), Asset Storage (Sicherheit in Starnberg).
+
+Crawl-Daten: 13 Jahre Motorsport-Erfahrung, Boxmanagement-Details.
+
+Visuell: Drei vertikale Spalten, die sich beim Hover elegant ausweiten.
+
+Scroll-Anteil: 20%
+
+4. Proof & Heritage: Die Rauscher-Methodik
+
+Funktion: Vertrauen durch Personalisierung und Fakten.
+
+Inhalt: Sacha Rauscher als Kopf. Stationen wie Daimler AG, Avalon, BCA Auktionator. Fokus auf das „Auktionator-Auge“ für Wertermittlung.
+
+Crawl-Daten: Alle Karrierestationen aus dem Crawl fließen hier ein.
+
+Visuell: Hochwertiges Portrait (B&W oder entsättigt), daneben eine Timeline der Meilensteine.
+
+Scroll-Anteil: 15%
+
+5. Der Off-Market-Tresor (Digital Showroom)
+
+Funktion: Neugier wecken & Lead-Magnet.
+
+Inhalt: Einblick in aktuelle (anonymisierte) Projekte. „Aktuell im Portfolio: 3 Off-Market Villen (Starnberger See), 5 Sammlerfahrzeuge (Vorkrieg bis Hypercar).“
+
+Visuell: Karten-Design mit Milchglas-Effekt (Blur) über den Bildern. Zugang nur via Button.
+
+Scroll-Anteil: 15%
+
+6. CTA-Section: Der rote Teppich
+
+Funktion: Maximale Conversion durch Qualifizierung.
+
+Inhalt: „Ihre Zeit ist kostbar. Starten wir den diskreten Dialog.“
+
+Visuell: Fokus-Box mit dem Multi-Step-Formular (Interaktiver Fragebogen).
+
+Scroll-Anteil: 15%
+
+7. Footer: Das digitale Impressum der Seriosität
+
+Funktion: Administrative Basis & Trust-Signale.
+
+Crawl-Daten: Adresse Starnberg, Kontaktdaten.
+
+Scroll-Anteil: 10%
+
+KAPITEL 3 — TEXTE
+Hero
+
+Headline: Werte kuratieren. Zeit gewinnen.
+
+Subheadline: Ihr persönlicher Zugang zu Off-Market Immobilien und exklusiven Automobilen am Starnberger See.
+
+Body: Wir vereinen 25 Jahre Marktkenntnis mit der Diskretion eines Family Office. Yuwelux managt Ihre Sachwerte, damit Sie sich auf das Wesentliche konzentrieren können.
+
+CTA: Portfolio anfragen.
+
+Lösung & USPs (Automotive)
+
+Headline: Mehr als nur Handel: Sammlungs-Kuratierung.
+
+Subheadline: Von der Wertermittlung bis zum klimatisierten Boxmanagement.
+
+Body: Mit der Präzision aus 13 Jahren Motorsport und der Erfahrung eines BCA-Auktionators prüfen wir jedes Fahrzeug bis ins kleinste technische Detail. Wir finden nicht irgendein Auto – wir finden das Richtige für Ihr Portfolio.
+
+CTA-Section
+
+Headline: Ein Dialog unter Experten.
+
+Subheadline: Diskret, unverbindlich, zielorientiert.
+
+Body: Wählen Sie Ihr Interessengebiet, und wir bereiten die relevanten Unterlagen für unser Erstgespräch vor.
+
+CTA-Text: Qualifizierte Anfrage starten.
+
+KAPITEL 4 — VISUELLES KONZEPT
+Farbpalette:
+
+Primär (Deep Midnight): #1A1C1E – Hintergrund für Exklusivität und Tiefe.
+
+Sekundär (Champagne Gold): #C5A059 – Akzente, Icons und CTAs (subtil eingesetzt).
+
+Akzent (Starnberg Blue): #2C3E50 – Dezente Verläufe, erinnert an den See bei Dämmerung.
+
+Begründung: Die Kombination strahlt Ruhe, Reichtum und Seriosität aus (Quiet Luxury).
+
+Typografie:
+
+Display-Font: Playfair Display – Serif-Font für Headlines. Erinnert an hochwertige Editorial-Magazine (Vogue, Robb Report).
+
+Body-Font: Inter – Hochmoderne Sans-Serif für maximale Lesbarkeit der technischen Fakten.
+
+Hierarchie: H1 (Bold, 64px), H2 (Light-Italic, 48px), Body (Regular, 18px).
+
+Bildsprache:
+
+Adjektive: Distanziert, Detailverliebt, Authentisch.
+
+Referenzen: 1. Makro-Aufnahme einer Leder-Narbe eines Oldtimers oder einer Architektur-Kante einer Villa (Abstraktion von Luxus).
+2. Sacha Rauscher im Gespräch in der Fahrzeughalle, natürliches Licht, kein künstliches Lächeln (Arbeits-Atmosphäre).
+
+Reuse: Bestehende Fahrzeugbilder werden nur in Schwarz-Weiß oder mit einem dunklen Overlay verwendet, um Konsistenz zu erzwingen.
+
+Motion & Interaktion:
+
+Gefühl: „Schwer, industriell, mit Trägheit“. Elemente gleiten nicht, sie „rasten ein“.
+
+Micro-Interactions:
+
+Hover über Off-Market-Karten: Ein sanftes Entschleiern (Unblur) des Bildes.
+
+Scroll-Progress-Bar: Ein feiner goldener Faden am oberen Rand.
+
+Button-Hover: Subtile Ausdehnung des Rahmens, kein plötzlicher Farbwechsel.
+
+Scroll-Verhalten: Dramatisch. Große Sektionen, die beim Scrollen leicht einrasten (Scroll-Snapping), um den Fokus auf die jeweilige Aussage zu zwingen.
