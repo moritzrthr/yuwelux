@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #1A1C1E;
+  --accent: #C5A059;
+  --accent-light: #D4B880;
+  --surface: #2C3E50;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-white font-sans;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply max-w-7xl mx-auto px-6 py-20 md:py-32;
+  }
+  
+  .luxury-button {
+    @apply inline-flex items-center justify-center px-8 py-4 bg-accent text-background font-medium hover:bg-accent-light transition-all duration-300 active:scale-95;
+  }
+
+  .luxury-button-outline {
+    @apply inline-flex items-center justify-center px-8 py-4 border border-accent text-accent font-medium hover:bg-accent hover:text-background transition-all duration-300 active:scale-95;
+  }
+
+  .text-display {
+    @apply font-display tracking-tighter leading-tight;
+  }
+
+  .glass-panel {
+    @apply bg-white/5 backdrop-blur-md border border-white/10 shadow-[inset_0_1px_0_rgba(255,255,255,0.1)];
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+.lenis.lenis-smooth {
+  height: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.scroll-snap-header {
+  scroll-padding-top: 5rem;
+}
