@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Car, House, ShieldCheck, Box } from '@phosphor-icons/react';
+import { Car, House, ShieldCheck } from '@phosphor-icons/react';
 import { useState } from 'react';
 
 const ecosystems = [
